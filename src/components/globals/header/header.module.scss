@@ -6,7 +6,7 @@
   // border-bottom: 1px solid rgba(194, 194, 194, 0.9);
   padding-bottom: 1.5%;
   padding-top: 1%;
-  transition: height 0.5s ease;
+  transition: height 0.3s ease;
   flex-wrap: wrap;
   height:auto;
   position: relative;
@@ -26,13 +26,13 @@
   width:100%;
   height: 1px;
   background-color: rgba(194,194,194, 0.9);
-  transform: translateY(-100%);
-  transition: transform 0.5s ease;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
 }
 
-.container.open::after {
-  transform: translateY(0);
-}
+// .container.open::after {
+//   transform: translateY(0);
+// }
 
 .imageContainer{
   width: 20%;
@@ -89,7 +89,7 @@
 .linksContainer {
   height: 0;
   overflow: hidden;
-  transition: height 0.5s ease;
+  transition: height 0.3s ease;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,7 +98,7 @@
 
 /* Når menyen er åpen */
 .linksContainer.show {
-  height: auto; /* Sett høyden basert på antall linker */
+  height: 500px; /* Sett høyden basert på antall linker */
   margin-top: 10vh;
 }
 
