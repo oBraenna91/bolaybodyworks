@@ -1,0 +1,109 @@
+@charset "UTF-8";
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(194, 194, 194, 0.9);
+  padding-bottom: 1.5%;
+  padding-top: 1%;
+  -webkit-transition: border-bottom 0.3s ease;
+  transition: border-bottom 0.3s ease;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container.open {
+  border-bottom-color: rgba(194, 194, 194, 0.9);
+}
+
+.imageContainer {
+  width: 20%;
+}
+
+.buttonContainer {
+  cursor: pointer;
+}
+
+.menuIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.menuIcon span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  left: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.menuIcon span:nth-child(1) {
+  top: 0;
+}
+
+.menuIcon span:nth-child(2) {
+  top: 10px;
+}
+
+.menuIcon span:nth-child(3) {
+  top: 20px;
+}
+
+/* When the menu is open, turn the button into an "X" */
+.menuIcon.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 10px;
+}
+
+.menuIcon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.menuIcon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 10px;
+}
+
+/* Link container (hidden by default) */
+.linksContainer {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.5s ease;
+  transition: height 0.5s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+/* Når menyen er åpen */
+.linksContainer.show {
+  height: auto;
+  /* Sett høyden basert på antall linker */
+}
+
+.link {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=header.module.css.map */
