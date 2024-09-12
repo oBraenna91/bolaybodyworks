@@ -13734,9 +13734,9 @@ h3, .h3 {
   font-weight: 600;
 }
 
-.filler {
-  margin-top: 50vh;
-  margin-bottom: 50vh;
+h4, .h4 {
+  padding: 0;
+  margin: 0;
 }
 
 @-webkit-keyframes fadeInUp {
@@ -13772,7 +13772,8 @@ h3, .h3 {
 }
 
 .appearing-container {
-  margin-top: 10%;
+  margin-top: 15%;
+  margin-bottom: 15%;
   opacity: 0;
   -webkit-animation: fadeInUp 2s ease forwards;
           animation: fadeInUp 2s ease forwards;
@@ -13780,5 +13781,9 @@ h3, .h3 {
 
 .corner {
   border-radius: 20px;
+}
+
+.filler {
+  height: 20px;
 }
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,64 @@
+.accordionItem {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.accordionHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordionTitle {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.iconContainer {
+  width: 10%;
+}
+
+.accordionIcon {
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.accordionIcon.rotate {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.accordionContent {
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0;
+  -webkit-transition: max-height 0.3s ease, padding 0.3s ease;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.accordionContent.open {
+  display: block;
+  max-height: 500px;
+  padding: 10px;
+}
+/*# sourceMappingURL=accordion.module.css.map */
