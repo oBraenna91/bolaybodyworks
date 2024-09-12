@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './imageCollage.module.scss';
-import Image  from 'react-bootstrap/Image';
+//import Image  from 'react-bootstrap/Image';
 
 export default function ImageCollage() {
 
