@@ -1,0 +1,47 @@
+.container1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 7px;
+}
+
+.container2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sub1 {
+  width: 100%;
+}
+
+.sub2 {
+  width: 20%;
+}
+
+.sub3 {
+  width: 78%;
+}
+
+.sub5 {
+  width: 30%;
+}
+
+.sub6 {
+  width: 68%;
+}
+
+.sub1, .sub2, .sub3, .sub4, .sub5, .sub6 {
+  height: 70px;
+  background-color: black;
+}
+/*# sourceMappingURL=imageCollage.module.css.map */
