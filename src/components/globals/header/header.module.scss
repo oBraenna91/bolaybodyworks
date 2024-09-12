@@ -3,15 +3,35 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(194, 194, 194, 0.9);
+  // border-bottom: 1px solid rgba(194, 194, 194, 0.9);
   padding-bottom: 1.5%;
   padding-top: 1%;
-  transition: border-bottom 0.3s ease;
+  transition: height 0.5s ease;
   flex-wrap: wrap;
+  height:auto;
+  position: relative;
+  overflow: hidden;
 }
 
 .container.open {
-  border-bottom-color: rgba(194,194,194, 0.9);
+  // border-bottom-color: rgba(194,194,194, 0.9);
+  padding-bottom: 100vh;
+}
+
+.container::after {
+  content:'';
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 1px;
+  background-color: rgba(194,194,194, 0.9);
+  transform: translateY(-100%);
+  transition: transform 0.5s ease;
+}
+
+.container.open::after {
+  transform: translateY(0);
 }
 
 .imageContainer{
@@ -20,11 +40,12 @@
 
 .buttonContainer{
   cursor: pointer;
+  margin-right: 2%;
 }
 
 .menuIcon {
   position:relative;
-  width: 24px;
+  width: 44px;
   height: 24px;
 }
 
@@ -78,6 +99,7 @@
 /* Når menyen er åpen */
 .linksContainer.show {
   height: auto; /* Sett høyden basert på antall linker */
+  margin-top: 10vh;
 }
 
 .link {

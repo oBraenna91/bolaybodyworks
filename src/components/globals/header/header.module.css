@@ -10,17 +10,40 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-bottom: 1px solid rgba(194, 194, 194, 0.9);
   padding-bottom: 1.5%;
   padding-top: 1%;
-  -webkit-transition: border-bottom 0.3s ease;
-  transition: border-bottom 0.3s ease;
+  -webkit-transition: height 0.5s ease;
+  transition: height 0.5s ease;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  height: auto;
+  position: relative;
+  overflow: hidden;
 }
 
 .container.open {
-  border-bottom-color: rgba(194, 194, 194, 0.9);
+  padding-bottom: 100vh;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(194, 194, 194, 0.9);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.container.open::after {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .imageContainer {
@@ -29,11 +52,12 @@
 
 .buttonContainer {
   cursor: pointer;
+  margin-right: 2%;
 }
 
 .menuIcon {
   position: relative;
-  width: 24px;
+  width: 44px;
   height: 24px;
 }
 
@@ -99,6 +123,7 @@
 .linksContainer.show {
   height: auto;
   /* Sett høyden basert på antall linker */
+  margin-top: 10vh;
 }
 
 .link {
