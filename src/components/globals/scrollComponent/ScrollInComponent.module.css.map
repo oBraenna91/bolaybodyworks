@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,CAAC;EACV,SAAS,EAAE,iBAAiB;EAC5B,UAAU,EAAE,8CAA8C;CAC3D;;AAED,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,CAAC;EACV,SAAS,EAAE,aAAa;CACzB",
+    "sources": [
+        "ScrollInComponent.module.scss"
+    ],
+    "names": [],
+    "file": "ScrollInComponent.module.css"
+}

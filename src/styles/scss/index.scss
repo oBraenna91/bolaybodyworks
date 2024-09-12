@@ -1,2 +1,24 @@
 @import "./variables.scss";
 @import '../../../node_modules/bootstrap/scss/bootstrap';
+
+.outlet{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 6%;
+    width:100%;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.filler {
+    margin-top: 50vh;
+    margin-bottom: 50vh;
+}
