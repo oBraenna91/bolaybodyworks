@@ -11,6 +11,9 @@ import styles from './home.module.scss';
 import Image from 'react-bootstrap/Image';
 import arrow from '../../icons/arrow1.png';
 import img1 from '../../images/sara/peachy.jpg';
+import img2 from '../../images/sara/black-standing.jpg';
+import img3 from '../../images/sara/BW2.jpg';
+import img4 from '../../images/sara/meat-colored.jpg';
 
 export default function Home() {
     return(
@@ -70,7 +73,7 @@ export default function Home() {
                 </div>
                 <div className={styles.elaborate}>
                     <div className={`${styles.card} corner`}>
-                        <Image src={img1} className="corner" fluid alt="Image of Sara" />
+                        <Image src={img2} className="corner" fluid alt="Image of Sara" />
                     </div>
                     <div className={styles.elaborateH}>
                         Finn din indre styrke
@@ -87,7 +90,61 @@ export default function Home() {
             <div className="filler"></div>
             <div className="filler"></div>
             <div className="filler"></div>
+            <ScrollingComponent containerName="scroll-container-3">
+                <div className={styles.elaborate}>
+                    <div className={`${styles.card} corner`}>
+                        <Image src={img1} className="corner" fluid alt="Image of Sara" />
+                    </div>
+                    <div className={styles.elaborateH}>
+                        Nyt sunne måltider
+                    </div>
+                    <div className={styles.elaborateP}>
+                        Bolay Bodyworks gjør det enkelt å spise sunt uten stress. Hver dag 
+                        vil du få forslag til måltider som kan tilpasses etter preferanser, 
+                        og som gir deg den nødvendige energien til å gjennomføre treningsøktene. 
+                        Mat skal ikke være komplisert – det skal være en glede!
+                    </div>
+                </div>
+            </ScrollingComponent>
             <div className="filler"></div>
+            <div className="filler"></div>
+            <div className="filler"></div>
+            <ScrollingComponent containerName="scroll-container-4">
+                <div className={styles.elaborate}>
+                    <div className={`${styles.card} corner`}>
+                        <Image src={img3} className="corner" fluid alt="Image of Sara" />
+                    </div>
+                    <div className={styles.elaborateH}>
+                        Forbli på rett spor
+                    </div>
+                    <div className={styles.elaborateP}>
+                        Med daglige påminnelser, motivasjonstips fra Sara, 
+                        og live-sessions, vil du aldri føle deg alene på denne reisen. Sammen 
+                        vil vi bygge en sterk mentalitet som vil hjelpe deg gjennom utfordringene,
+                        og sørge for at du holder deg på sporet.
+                    </div>
+                </div>
+            </ScrollingComponent>
+            <div className="filler"></div>
+            <div className="filler"></div>
+            <div className="filler"></div>
+            <ScrollingComponent containerName="scroll-container-5">
+                <div className={styles.elaborate}>
+                    <div className={`${styles.card} corner`}>
+                        <Image src={img4} className="corner" fluid alt="Image of Sara" />
+                    </div>
+                    <div className={styles.elaborateH}>
+                        Selvutvikling
+                    </div>
+                    <div className={styles.elaborateP}>
+                        For å hjelpe deg å holde fokus på det som virkelig betyr noe, 
+                        vil Bolay Bodyworks gi deg tilgang til motiverende e-bøker om 
+                        mental helse, selvutvikling, og hvordan du kan ta vare på kroppen 
+                        og sinnet ditt på en helhetlig måte. Du vil finne verktøyene du 
+                        trenger for å lykkes – både fysisk og mentalt.
+                    </div>
+                </div>
+            </ScrollingComponent>
             <div className="filler"></div>
             <div className="filler"></div>
             <div className="filler"></div>
