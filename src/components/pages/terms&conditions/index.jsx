@@ -89,7 +89,7 @@ export default function TermsPage() {
                     </p>
                 </div>
             </ScrollingComponent>
-            <ScrollingComponent containerName="scroll-container-6">
+            <ScrollingComponent containerName="scroll-container-7">
                 <div className={styles.container}>
                     <h3 className='my-5'>Levering</h3>
                     <p>Levering er skjedd når kjøperen, eller hans representant, har overtatt tingen.
