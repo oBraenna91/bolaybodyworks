@@ -7,7 +7,7 @@ import ScrollingComponent from '../../globals/scrollComponent';
 export default function ReturnPage() {
     return(
         <div className={`home-container`}>
-            <h1>Retur</h1>
+            <h1 className="text-center">Retur</h1>
             <div className={`appearing-container ${styles.imageContainer}`}>
                 <Image className="corner" src={image1} fluid alt="image of Sara"/>
             </div>
