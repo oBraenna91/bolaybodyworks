@@ -43,4 +43,13 @@
     .serviceContainer{
         margin-top: 10%;
     }
+
+    .card img {
+        transition: transform 0.3s ease; /* Legger til en smooth overgang */
+      }
+    
+      .card img:hover {
+        transform: scale(1.05); /* Bildet zoomer inn med 10% */
+        cursor: pointer;
+      }
 }

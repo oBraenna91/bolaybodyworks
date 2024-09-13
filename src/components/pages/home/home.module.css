@@ -49,5 +49,18 @@
   .serviceContainer {
     margin-top: 10%;
   }
+  .card img {
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+    /* Legger til en smooth overgang */
+  }
+  .card img:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    /* Bildet zoomer inn med 10% */
+    cursor: pointer;
+  }
 }
 /*# sourceMappingURL=home.module.css.map */

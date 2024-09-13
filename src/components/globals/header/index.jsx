@@ -7,6 +7,22 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
   
     const toggleMenu = () => setIsOpen(!isOpen);
+
+    const redirectToReturns = () => {
+        window.location.href="/returns";
+    }
+    const redirectToTerms = () => {
+        window.location.href="/terms&conditions";
+    }
+    const redirectToContact = () => {
+        window.location.href="/contact";
+    }
+    const redirectToHome = () => {
+        window.location.href="/";
+    }
+    const redirectToPrivacy = () => {
+        window.location.href="/privacy";
+    }
   
     return (
       <div className={`${headerStyles.container} ${isOpen ? headerStyles.open : ''}`}>
@@ -21,11 +37,11 @@ export default function Header() {
           </div>
         </div>
         <div className={`${headerStyles.linksContainer} ${isOpen ? headerStyles.show : ''}`}>
-          <div className={headerStyles.link}>Home</div>
-          <div className={headerStyles.link}>Terms and Conditions</div>
-          <div className={headerStyles.link}>Returns</div>
-          <div className={headerStyles.link}>Contact</div>
-          <div className={headerStyles.link}>About</div>
+          <div className={headerStyles.link} onClick={redirectToHome}>Home</div>
+          <div className={headerStyles.link} onClick={redirectToTerms}>Terms and Conditions</div>
+          <div className={headerStyles.link} onClick={redirectToReturns}>Returns</div>
+          <div className={headerStyles.link} onClick={redirectToContact}>Contact</div>
+          <div className={headerStyles.link} onClick={redirectToPrivacy}>Privacy</div>
         </div>
       </div>
     );

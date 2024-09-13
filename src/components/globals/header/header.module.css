@@ -131,6 +131,11 @@
   text-align: left;
 }
 
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 @media (min-width: 1024px) {
   .container {
     max-height: 150px;

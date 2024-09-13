@@ -1,0 +1,14 @@
+@media (min-width: 1024px) {
+    .imageContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .container {
+        width: 50%;
+        margin: auto;
+    }
+}
