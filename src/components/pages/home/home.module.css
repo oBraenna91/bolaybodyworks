@@ -17,6 +17,7 @@
 .elaborateH {
   font-size: 1.8em;
   font-weight: 600;
+  margin-top: 5%;
 }
 
 @media (min-width: 1024px) {
