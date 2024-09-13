@@ -111,3 +111,13 @@
   margin: auto;
   text-align: left;
 }
+
+@media (min-width: 1024px) {
+  .container{
+    max-height: 150px;
+  }
+
+  .imageContainer{
+    width: 10%;
+  }
+}

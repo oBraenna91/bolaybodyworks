@@ -14,19 +14,22 @@ import img1 from '../../images/sara/peachy.jpg';
 import img2 from '../../images/sara/black-standing.jpg';
 import img3 from '../../images/sara/BW2.jpg';
 import img4 from '../../images/sara/meat-colored.jpg';
+import phone from '../../icons/phone.png'
 
 export default function Home() {
     return(
         <div className="home-container">
-            <h1>Välkommen til Bolay Bodyworks</h1>
-            <Intro />
+            <div className={styles.container1}>
+                <h1>Välkommen til Bolay Bodyworks</h1>
+                <Intro />
+            </div>
             <div className="appearing-container">
                 <ImageCollage />
             </div>
             <ScrollingComponent containerName="scroll-container-1">
                 <div className={styles.serviceContainer}>
                     <div className={styles.serviceContainerImageContainer}>
-                        <Image fluid alt="arrox-icon" src={arrow} />
+                        <Image fluid alt="arrow-icon" src={arrow} />
                     </div>
                     <div className={styles.subHeader}>S E R V I C E S</div>
                 </div>
@@ -60,56 +63,113 @@ export default function Home() {
                     selv på veien til målene dine."
                     icon={lotus}
                 />
+                <Accordion 
+                    title="Egen app"
+                    content="Alt dette er samlet i en egen app som enkelt gir deg
+                    tilgang til alle dine treningsøkter, matplaner (med detaljerte oppskrifter),
+                    og alt innholdet Bolay Bodyworks tilbyr!"
+                    icon={phone}
+                />
             </ScrollingComponent>
             <div className="filler"></div>
             <div className="filler"></div>
             <div className="filler"></div>
-            <ScrollingComponent containerName="scroll-container-2">
+            <ScrollingComponent containerName="scroll-container-6">
                 <div className={styles.serviceContainer}>
                     <div className={styles.serviceContainerImageContainer}>
                         <Image fluid alt="arrox-icon" src={arrow} />
                     </div>
                     <div className={styles.subHeader}>W O R K S</div>
                 </div>
-                <div className={styles.elaborate}>
-                    <div className={`${styles.card} corner`}>
-                        <Image src={img2} className="corner" fluid alt="Image of Sara" />
+            </ScrollingComponent>
+            <div className={styles.bigSubContainer}>
+                <div className={styles.bigSubChild}>
+                    <ScrollingComponent containerName="scroll-container-2">
+                        <div className={styles.elaborate}>
+                            <div className={`${styles.card} corner`}>
+                                <Image src={img2} className="corner" fluid alt="Image of Sara" />
+                            </div>
+                            <div className={styles.elaborateH}>
+                                Finn din indre styrke
+                            </div>
+                            <div className={styles.elaborateP}>
+                                Hver treningsplan er designet for å utfordre deg på
+                                ditt nivå, samtidig som du bygger opp styrke, utholdenhet, 
+                                og selvtillit. Fra hjemmeøkter til treningssenter – du vil 
+                                ha alt du trenger for å lykkes. Med ukentlige tilpasninger 
+                                holder du fremgangen oppe.
+                            </div>
+                        </div>
+                    </ScrollingComponent>
+                    <div className="filler"></div>
+                    <div className="filler"></div>
+                    <div className="filler"></div>
+                </div>
+                <div className={styles.bigSubChild}>
+                    <ScrollingComponent containerName="scroll-container-3">
+                        <div className={styles.elaborate}>
+                            <div className={`${styles.card} corner`}>
+                                <Image src={img1} className="corner" fluid alt="Image of Sara" />
+                            </div>
+                            <div className={styles.elaborateH}>
+                                Nyt sunne måltider
+                            </div>
+                            <div className={styles.elaborateP}>
+                                Bolay Bodyworks gjør det enkelt å spise sunt uten stress. Hver dag 
+                                vil du få forslag til måltider som kan tilpasses etter preferanser, 
+                                og som gir deg den nødvendige energien til å gjennomføre treningsøktene. 
+                                Mat skal ikke være komplisert – det skal være en glede!
+                            </div>
+                        </div>
+                    </ScrollingComponent>
                     </div>
-                    <div className={styles.elaborateH}>
-                        Finn din indre styrke
+                    <div className="filler"></div>
+                    <div className="filler"></div>
+                    <div className="filler"></div>
+                </div>
+                <div className={styles.bigSubContainer}>
+                    <div className={styles.bigSubChild}>
+                        <ScrollingComponent containerName="scroll-container-4">
+                            <div className={styles.elaborate}>
+                                <div className={`${styles.card} corner`}>
+                                    <Image src={img3} className="corner" fluid alt="Image of Sara" />
+                                </div>
+                                <div className={styles.elaborateH}>
+                                    Forbli på rett spor
+                                </div>
+                                <div className={styles.elaborateP}>
+                                    Med daglige påminnelser, motivasjonstips fra Sara, 
+                                    og live-sessions, vil du aldri føle deg alene på denne reisen. Sammen 
+                                    vil vi bygge en sterk mentalitet som vil hjelpe deg gjennom utfordringene,
+                                    og sørge for at du holder deg på sporet.
+                                </div>
+                            </div>
+                        </ScrollingComponent>
                     </div>
-                    <div className={styles.elaborateP}>
-                        Hver treningsplan er designet for å utfordre deg på
-                        ditt nivå, samtidig som du bygger opp styrke, utholdenhet, 
-                        og selvtillit. Fra hjemmeøkter til treningssenter – du vil 
-                        ha alt du trenger for å lykkes. Med ukentlige tilpasninger 
-                        holder du fremgangen oppe.
+                    <div className="filler"></div>
+                    <div className="filler"></div>
+                    <div className="filler"></div>
+                    <div className={styles.bigSubChild}>
+                        <ScrollingComponent containerName="scroll-container-5">
+                            <div className={styles.elaborate}>
+                                <div className={`${styles.card} corner`}>
+                                    <Image src={img4} className="corner" fluid alt="Image of Sara" />
+                                </div>
+                                <div className={styles.elaborateH}>
+                                    Selvutvikling
+                                </div>
+                                <div className={styles.elaborateP}>
+                                    For å hjelpe deg å holde fokus på det som virkelig betyr noe, 
+                                    vil Bolay Bodyworks gi deg tilgang til motiverende e-bøker om 
+                                    mental helse, selvutvikling, og hvordan du kan ta vare på kroppen 
+                                    og sinnet ditt på en helhetlig måte. Du vil finne verktøyene du 
+                                    trenger for å lykkes – både fysisk og mentalt.
+                                </div>
+                            </div>
+                        </ScrollingComponent>
                     </div>
                 </div>
-            </ScrollingComponent>
-            <div className="filler"></div>
-            <div className="filler"></div>
-            <div className="filler"></div>
-            <ScrollingComponent containerName="scroll-container-3">
-                <div className={styles.elaborate}>
-                    <div className={`${styles.card} corner`}>
-                        <Image src={img1} className="corner" fluid alt="Image of Sara" />
-                    </div>
-                    <div className={styles.elaborateH}>
-                        Nyt sunne måltider
-                    </div>
-                    <div className={styles.elaborateP}>
-                        Bolay Bodyworks gjør det enkelt å spise sunt uten stress. Hver dag 
-                        vil du få forslag til måltider som kan tilpasses etter preferanser, 
-                        og som gir deg den nødvendige energien til å gjennomføre treningsøktene. 
-                        Mat skal ikke være komplisert – det skal være en glede!
-                    </div>
-                </div>
-            </ScrollingComponent>
-            <div className="filler"></div>
-            <div className="filler"></div>
-            <div className="filler"></div>
-            <ScrollingComponent containerName="scroll-container-4">
+            {/* <ScrollingComponent containerName="scroll-container-4">
                 <div className={styles.elaborate}>
                     <div className={`${styles.card} corner`}>
                         <Image src={img3} className="corner" fluid alt="Image of Sara" />
@@ -144,7 +204,7 @@ export default function Home() {
                         trenger for å lykkes – både fysisk og mentalt.
                     </div>
                 </div>
-            </ScrollingComponent>
+            </ScrollingComponent> */}
             <div className="filler"></div>
             <div className="filler"></div>
             <div className="filler"></div>

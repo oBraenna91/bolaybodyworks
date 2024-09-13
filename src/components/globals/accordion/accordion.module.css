@@ -61,4 +61,10 @@
   max-height: 500px;
   padding: 10px;
 }
+
+@media (min-width: 1024px) {
+  .iconContainer {
+    width: 3%;
+  }
+}
 /*# sourceMappingURL=accordion.module.css.map */

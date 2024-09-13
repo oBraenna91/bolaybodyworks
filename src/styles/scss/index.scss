@@ -53,3 +53,18 @@ h4 {
 .filler {
     height: 20px;
 }
+
+@media (min-width: 1024px) {
+    .outlet{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    h1{
+        font-size: 5em;
+    }
+
+    .filler{
+        display:none;
+    }
+}

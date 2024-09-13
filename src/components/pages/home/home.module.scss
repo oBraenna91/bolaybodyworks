@@ -14,3 +14,33 @@
     font-size: 1.8em;
     font-weight: 600;
 }
+
+@media (min-width: 1024px) {
+    .container1 {
+        display: flex;
+    }
+
+    .serviceContainerImageContainer{
+        width:3%;
+    }
+
+    .bigSubContainer {
+        display:flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .bigSubChild {
+        width: 48%;
+        margin-bottom: 7%;
+    }
+
+    .elaborate {
+        width: 100%;
+    }
+
+    .serviceContainer{
+        margin-top: 10%;
+    }
+}
