@@ -1,5 +1,7 @@
-.container {
-  width: 50%;
-  margin: auto;
+@media (min-width: 1024px) {
+  .container {
+    width: 50%;
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=privacy.module.css.map */
