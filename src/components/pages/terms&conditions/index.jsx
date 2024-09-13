@@ -13,86 +13,86 @@ export default function TermsPage() {
             </div>
             <ScrollingComponent containerName="scroll-container-1">
                 <div className={styles.container}>
-                    <h3 className='my-5'>Innledning</h3>
-                    <p>Dette kjøpet er regulert av de nedenstående standard salgsbetingelser for forbrukerkjøp 
-                        av varer over Internett. Forbrukerkjøp over internett reguleres hovedsakelig av avtaleloven, 
-                        forbrukerkjøpsloven, markedsføringsloven, angrerettloven og ehandelsloven, og disse lovene 
-                        gir forbrukeren ufravikelige rettigheter. Lovene er tilgjengelig på www.lovdata.no. Vilkårene 
-                        i denne avtalen skal ikke forstås som noen begrensning i de lovbestemte rettighetene, men 
-                        oppstiller partenes viktigste rettigheter og plikter for handelen.
+                    <h3 className='my-5'>Inledning</h3>
+                    <p>Detta köp regleras av nedanstående standardvillkor för konsumentköp av varor över Internet. 
+                        Konsumentköp över internet regleras huvudsakligen av avtalslagen, konsumentköplagen, 
+                        marknadsföringslagen, ångerrättslagen och e-handelslagen, och dessa lagar ger konsumenten 
+                        tvingande rättigheter. Lagarna finns tillgängliga på www.lagboken.se. Villkoren i detta avtal 
+                        ska inte tolkas som en begränsning av de lagstadgade rättigheterna, utan fastställer parternas 
+                        viktigaste rättigheter och skyldigheter för handeln.
                         <br></br>
                         <br></br>
-                        Salgsbetingelsene er utarbeidet og anbefalt av Forbrukertilsynet. For en bedre forståelse av disse 
-                        salgsbetingelsene, se Forbrukertilsynets veileder her.
+                        Försäljningsvillkoren har tagits fram och rekommenderats av Konsumentverket. För en bättre 
+                        förståelse av dessa försäljningsvillkor, se Konsumentverkets vägledning här.
                     </p>
                 </div>
             </ScrollingComponent>
             <ScrollingComponent containerName="scroll-container-2">
                 <div className={styles.container}>
-                    <h3 className='my-5'>1.Avtalen</h3>
-                    <p>Avtalen består av disse salgsbetingelsene, opplysninger gitt i bestillingsløsningen og eventuelt 
-                        særskilt avtalte vilkår. Ved eventuell motstrid mellom opplysningene, går det som særskilt er 
-                        avtalt mellom partene foran, så fremt det ikke strider mot ufravikelig lovgivning.
+                    <h3 className='my-5'>1.Avtalet</h3>
+                    <p>Avtalet består av dessa försäljningsvillkor, upplysningar som ges i beställningslösningen och 
+                        eventuella särskilt avtalade villkor. Vid eventuell motsättning mellan upplysningarna gäller 
+                        det som särskilt avtalats mellan parterna, så länge det inte strider mot tvingande lagstiftning.
                         <br></br>
                         <br></br>
-                        Avtalen vil i tillegg bli utfylt av relevante lovbestemmelser som regulerer kjøp av varer mellom 
-                        næringsdrivende og forbrukere.</p>
+                        Avtalet kompletteras vidare av relevanta lagbestämmelser som reglerar köp av varor mellan 
+                        näringsidkare och konsumenter.</p>
                 </div>
             </ScrollingComponent>
             <ScrollingComponent containerName="scroll-container-3">
                 <div className={styles.container}>
-                    <h3 className='my-5'>2.Partene</h3>
-                    <p>Selger er Gymfluence OÜ, Orgnr. 16864978, Paepargi 43, 28, 11417 Tallinn, Estonia, +37255574987, jk@gymfluence.io
+                    <h3 className='my-5'>2.Parterna</h3>
+                    <p>Seljäre är Gymfluence OÜ, Orgnr. 16864978, Paepargi 43, 28, 11417 Tallinn, Estonia, +37255574987, jk@gymfluence.io
                         <br></br>
                         <br></br>
-                        og betegnes i det følgende som selger/selgeren.
+                        och kallas i det följande för säljare/säljaren.
                         <br></br>
                         <br></br>
-                        Kjøper er den forbrukeren som foretar bestillingen, og betegnes i det følgende som kjøper/kjøperen.</p>
+                        Köpare är den konsument som gör beställningen, och kallas i det följande för köpare/köparen.</p>
                 </div>
             </ScrollingComponent>
             <ScrollingComponent containerName="scroll-container-4">
                 <div className={styles.container}>
                     <h3 className='my-5'>Pris</h3>
-                    <p>Den oppgitte prisen for varen og tjenester er den totale prisen kjøper skal betale. Denne prisen inkluderer 
-                        alle avgifter og tilleggskostnader. Ytterligere kostnader som selger før kjøpet ikke har informert om, skal 
-                        kjøper ikke bære.</p>
+                    <p>Det angivna priset för varan och tjänsterna är det totala pris som köparen ska betala. Detta pris 
+                        inkluderar alla avgifter och tilläggskostnader. Ytterligare kostnader som säljaren inte informerat 
+                        om före köpet ska köparen inte behöva stå för.</p>
                 </div>
             </ScrollingComponent>
             <ScrollingComponent containerName="scroll-container-5">
                 <div className={styles.container}>
-                    <h3 className='my-5'>Avtaleinngåelse</h3>
-                    <p>Avtalen er bindende for begge parter når kjøperen har sendt sin bestilling til selgeren.
+                    <h3 className='my-5'>Avtalsingående</h3>
+                    <p>Avtalet är bindande för båda parter när köparen har skickat sin beställning till säljaren.
                         <br></br>
                         <br></br>
-                        Avtalen er likevel ikke bindende hvis det har forekommet skrive- eller tastefeil i tilbudet fra selgeren 
-                        i bestillingsløsningen i nettbutikken eller i kjøperens bestilling, og den annen part innså eller burde 
-                        ha innsett at det forelå en slik feil.
+                        Avtalet är dock inte bindande om det förekommit skriv- eller tryckfel i erbjudandet från 
+                        säljaren i beställningslösningen i webbutiken eller i köparens beställning, och den andra 
+                        parten insåg eller borde ha insett att det förelåg ett sådant fel.
                     </p>
                 </div>
             </ScrollingComponent>
             <ScrollingComponent containerName="scroll-container-6">
                 <div className={styles.container}>
-                    <h3 className='my-5'>Betalingen</h3>
-                    <p>Selgeren kan kreve betaling for varen fra det tidspunkt den blir sendt fra selgeren til kjøperen.
+                    <h3 className='my-5'>Betalning</h3>
+                    <p>Säljaren kan kräva betalning för varan från den tidpunkt den skickas från säljaren till köparen.
                         <br></br>
                         <br></br>
-                        Dersom kjøperen bruker kredittkort eller debetkort ved betaling, kan selgeren reservere kjøpesummen 
-                        på kortet ved bestilling. Kortet blir belastet samme dag som varen sendes.
+                        Om köparen använder kreditkort eller betalkort vid betalning, kan säljaren reservera köpesumman 
+                        på kortet vid beställning. Kortet debiteras samma dag som varan skickas.
                         <br></br>
                         <br></br>
-                        Ved betaling med faktura, blir fakturaen til kjøperen utstedt ved forsendelse av varen. Betalingsfristen 
-                        fremgår av fakturaen og er på minimum 14 dager fra mottak.
+                        Vid betalning med faktura utfärdas fakturan till köparen vid leverans av varan. Betalningsfristen 
+                        framgår av fakturan och är minst 14 dagar från mottagandet.
                         <br></br>
                         <br></br>
-                        Kjøpere under 18 år kan ikke betale med etterfølgende faktura.
+                        Köpare under 18 år kan inte betala med efterföljande faktura.
                     </p>
                 </div>
             </ScrollingComponent>
             <ScrollingComponent containerName="scroll-container-7">
                 <div className={styles.container}>
-                    <h3 className='my-5'>Levering</h3>
-                    <p>Levering er skjedd når kjøperen, eller hans representant, har overtatt tingen.
+                    <h3 className='my-5'>Leverans</h3>
+                    <p>Leverans sker när köparen, eller dennes representant, har mottagit varan.
                         <br></br>
                         <br></br>
                         <br></br>
