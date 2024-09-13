@@ -13,18 +13,19 @@ export default function ReturnPage() {
             </div>
             <div className={styles.returnContainer}>
             <ScrollingComponent containerName="scroll-container-1">
-                <h3>Opplysninger om angre- og returrett</h3>
+                <h3>Upplysningar om ångerrätt och returrätt</h3>
             </ScrollingComponent>
             <ScrollingComponent containerName="scroll-container-2">
-                <p>Du har rett til å gå fra denne avtalen innen 14 dager uten å oppgi noen grunn for dette. 
-                    Angrefristen utløper 14 dager etter den dag du eller en annen tredjemann enn transportøren, 
-                    som du har utpekt, får varene i fysisk besittelse.</p>
+                <p>Du har rätt att frånträda detta avtal inom 14 dagar utan att ange 
+                    något skäl för detta. Ångerfristen löper ut 14 dagar efter den dag då 
+                    du, eller en annan tredje part än transportören som du har utsett, 
+                    får varorna i fysisk besittning.</p>
             </ScrollingComponent>
             <div className="filler"></div>
             <div className="filler"></div>
             <div className="filler"></div>
             <ScrollingComponent containerName="scroll-container-3">
-                <p>For å kunne bruke angreretten må du underrette oss:
+                <p>För att kunna utnyttja ångerrätten måste du underrätta oss:
                     <br></br>
                     <br></br>
                     Gymfluence OÜ <br></br>
@@ -33,29 +34,30 @@ export default function ReturnPage() {
                     jk@gymfluence.io
                     <br></br>
                     <br></br>
-                    på en utvetydig måte om din beslutning om å gå fra avtalen (f.eks. i et brev sendt med post eller e-post).</p>
+                    på ett tydligt sätt om ditt beslut att frånträda avtalet (t.ex. via brev skickat med post eller e-post).</p>
             </ScrollingComponent>
             <div className="filler"></div>
             <div className="filler"></div>
             <div className="filler"></div>
             <ScrollingComponent containerName="scroll-container-4">
-                <p>For å overholde angrefristen er det tilstrekkelig at du sender meldingen om at du vil bruke angreretten før angrefristen utløper.<br></br>
+                <p>För att uppfylla ångerfristen räcker det att du skickar meddelandet om att du vill utnyttja ångerrätten innan ångerfristen löper ut.<br></br>
                     <br></br>
-                    Du må selv bære de direkte kostnadene ved å returnere varene.<br></br>
+                    Du måste själv stå för de direkta kostnaderna för att returnera varorna.<br></br>
                     <br></br>
-                    Virkningene av at angreretten brukes.<br></br>
                     <br></br>
-                    Dersom du går fra denne avtalen, skal vi tilbakebetale alle betalinger vi har mottatt fra deg med unntak av leveringskostnadene, uten unødig opphold og i alle tilfeller senest 14 dager etter den dag vi mottar melding om din beslutning om å gå fra denne avtalen.<br></br>
+                    <h3>Konsekvenser av att ångerrätten utnyttjas.</h3>
+                    <br></br>
+                    Om du frånträder detta avtal, ska vi återbetala alla betalningar vi mottagit från dig, förutom leveranskostnaderna, utan onödigt dröjsmål och senast 14 dagar efter den dag då vi mottagit meddelandet om ditt beslut att frånträda avtalet.<br></br>
                     <br></br>
                     </p>
             </ScrollingComponent>
             <ScrollingComponent containerName="scrolling-container-5">
                 <p>
-                Vi foretar tilbakebetalingen med samme betalingsmiddel som du benyttet ved den opprinnelige transaksjonen, med mindre du uttrykkelig har avtalt noe annet med oss. Frakt vil bli trukket fra refusjonsbeløpet.<br></br>
+                Vi genomför återbetalningen med samma betalningsmedel som du använde vid den ursprungliga transaktionen, såvida du inte uttryckligen kommit överens med oss om något annat. Fraktkostnader kommer att dras från återbetalningsbeloppet.<br></br>
                     <br></br>
-                    I alle tilfeller vil du ikke bli pålagt noe gebyr som følge av tilbakebetalingen.<br></br>
+                    Under inga omständigheter kommer du att påföras någon avgift till följd av återbetalningen.<br></br>
                     <br></br>
-                    Du er ansvarlig bare for en eventuell reduksjon i varenes verdi som skyldes en annen håndtering av varene enn den som er nødvendig for å fastslå deres art, egenskaper og funksjon.<br></br>
+                    Du är endast ansvarig för en eventuell värdeminskning på varorna som beror på annan hantering än vad som är nödvändigt för att fastställa varornas art, egenskaper och funktion.<br></br>
                     <br></br>
                     <br></br>
                     <br></br>
