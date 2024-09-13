@@ -34,40 +34,42 @@ export default function Home() {
                     <div className={styles.subHeader}>S E R V I C E S</div>
                 </div>
                 <Accordion 
-                    title="Personlig treningsplan"
-                    content="Få en tilpasset treningsplan som passer dine behov, uansett om du 
-                    er nybegynner eller erfaren. Øvelsene vil hjelpe deg med å bygge styrke, 
-                    øke kondisjonen og holde motivasjonen oppe gjennom hele utfordringen."
+                    title="Personlig träningsplan"
+                    content="Få en anpassad träningsplan som passar dina behov, 
+                    oavsett om du är nybörjare eller erfaren. Övningarna kommer 
+                    att hjälpa dig att bygga styrka, öka konditionen och hålla 
+                    motivationen uppe genom hela utmaningen."
                     icon={weights}
                 />
                 <Accordion 
                     title="Matplan"
-                    content="Med over 200 deilige måltider tilpasset dine preferanser og mål,
-                    blir det enkelt å holde seg på sporet. Bytt ut måltider etter eget ønske, 
-                    og nyt sunne, balanserte retter som holder deg mett og energisk."
+                    content="Med över 200 läckra måltider anpassade efter dina 
+                    preferenser och mål blir det enkelt att hålla sig på rätt spår. 
+                    Byt ut måltider efter eget önskemål och njut av hälsosamma, 
+                    balanserade rätter som håller dig mätt och energisk."
                     icon={meals}
                 />
                 <Accordion 
-                    title="Gå ned i vekt"
-                    content="Din vei til en sunn vekt.  
-                    Fokus på balanse mellom kosthold og trening vil hjelpe deg å nå dine 
-                    vektmål på en trygg og effektiv måte. Ingen strenge dietter – bare et godt 
-                    strukturert program som får deg til å føle deg vel."
+                    title="Gå ner i vikt"
+                    content="Din väg till en hälsosam vikt. Fokus på balans mellan 
+                    kost och träning kommer att hjälpa dig att nå dina viktmål på 
+                    ett säkert och effektivt sätt. Inga strikta dieter – bara ett 
+                    välstrukturerat program som får dig att må bra."
                     icon={slim}
                 />
                 <Accordion 
-                    title="Velvære for kropp og sjel"
-                    content="Velvære handler ikke bare om hvordan du ser ut, men også om 
-                    hvordan du har det med deg selv. Gjennom mindfulness, e-bøker, og 
-                    live-sessions, vil du lære å slappe av, finne ro, og ta vare på deg 
-                    selv på veien til målene dine."
+                    title="Välbefinnande för kropp och själ"
+                    content="Välbefinnande handlar inte bara om hur du ser ut, utan 
+                    också om hur du mår med dig själv. Genom mindfulness, e-böcker och 
+                    live-sessioner kommer du att lära dig att slappna av, finna ro och 
+                    ta hand om dig själv på vägen mot dina mål."
                     icon={lotus}
                 />
                 <Accordion 
                     title="Egen app"
-                    content="Alt dette er samlet i en egen app som enkelt gir deg
-                    tilgang til alle dine treningsøkter, matplaner (med detaljerte oppskrifter),
-                    og alt innholdet Bolay Bodyworks tilbyr!"
+                    content="Allt detta är samlat i en egen app som enkelt ger dig tillgång 
+                    till alla dina träningspass, kostscheman (med detaljerade recept) och 
+                    allt innehåll som Bolay Bodyworks erbjuder!"
                     icon={phone}
                 />
             </ScrollingComponent>
@@ -90,14 +92,14 @@ export default function Home() {
                                 <Image src={img2} className="corner" fluid alt="Image of Sara" />
                             </div>
                             <div className={styles.elaborateH}>
-                                Finn din indre styrke
+                                Hitta din inre styrka
                             </div>
                             <div className={styles.elaborateP}>
-                                Hver treningsplan er designet for å utfordre deg på
-                                ditt nivå, samtidig som du bygger opp styrke, utholdenhet, 
-                                og selvtillit. Fra hjemmeøkter til treningssenter – du vil 
-                                ha alt du trenger for å lykkes. Med ukentlige tilpasninger 
-                                holder du fremgangen oppe.
+                                Varje träningsplan är utformad för att utmana dig på din nivå, 
+                                samtidigt som du bygger upp styrka, uthållighet och självförtroende. 
+                                Från hemmaträning till gym – du kommer att ha allt du behöver för 
+                                att lyckas. Med veckovisa anpassningar säkerställs att du fortsätter 
+                                att göra framsteg.
                             </div>
                         </div>
                     </ScrollingComponent>
@@ -112,13 +114,13 @@ export default function Home() {
                                 <Image src={img1} className="corner" fluid alt="Image of Sara" />
                             </div>
                             <div className={styles.elaborateH}>
-                                Nyt sunne måltider
+                                Njut av hälsosamma måltider
                             </div>
                             <div className={styles.elaborateP}>
-                                Bolay Bodyworks gjør det enkelt å spise sunt uten stress. Hver dag 
-                                vil du få forslag til måltider som kan tilpasses etter preferanser, 
-                                og som gir deg den nødvendige energien til å gjennomføre treningsøktene. 
-                                Mat skal ikke være komplisert – det skal være en glede!
+                            Bolay Bodyworks gör det enkelt att äta hälsosamt utan stress. Varje dag 
+                            kommer du att få förslag på måltider som kan anpassas efter dina 
+                            preferenser och som ger dig den energi du behöver för att genomföra dina 
+                            träningspass. Mat ska inte vara komplicerat – det ska vara en glädje!
                             </div>
                         </div>
                     </ScrollingComponent>
@@ -135,13 +137,13 @@ export default function Home() {
                                     <Image src={img3} className="corner" fluid alt="Image of Sara" />
                                 </div>
                                 <div className={styles.elaborateH}>
-                                    Forbli på rett spor
+                                    Håll dig på rätt spår
                                 </div>
                                 <div className={styles.elaborateP}>
-                                    Med daglige påminnelser, motivasjonstips fra Sara, 
-                                    og live-sessions, vil du aldri føle deg alene på denne reisen. Sammen 
-                                    vil vi bygge en sterk mentalitet som vil hjelpe deg gjennom utfordringene,
-                                    og sørge for at du holder deg på sporet.
+                                Med dagliga påminnelser, motivationstips från Sara och live-sessioner 
+                                kommer du aldrig att känna dig ensam på den här resan. Tillsammans 
+                                bygger vi en stark mentalitet som hjälper dig att ta dig igenom utmaningarna 
+                                och ser till att du håller dig på rätt spår.
                                 </div>
                             </div>
                         </ScrollingComponent>
@@ -156,14 +158,14 @@ export default function Home() {
                                     <Image src={img4} className="corner" fluid alt="Image of Sara" />
                                 </div>
                                 <div className={styles.elaborateH}>
-                                    Selvutvikling
+                                    Självutveckling
                                 </div>
                                 <div className={styles.elaborateP}>
-                                    For å hjelpe deg å holde fokus på det som virkelig betyr noe, 
-                                    vil Bolay Bodyworks gi deg tilgang til motiverende e-bøker om 
-                                    mental helse, selvutvikling, og hvordan du kan ta vare på kroppen 
-                                    og sinnet ditt på en helhetlig måte. Du vil finne verktøyene du 
-                                    trenger for å lykkes – både fysisk og mentalt.
+                                För att hjälpa dig att hålla fokus på det som verkligen betyder något, 
+                                ger Bolay Bodyworks dig tillgång till motiverande e-böcker om mental 
+                                hälsa, självutveckling och hur du kan ta hand om din kropp och ditt sinne 
+                                på ett holistiskt sätt. Du kommer att hitta de verktyg du behöver för att 
+                                lyckas – både fysiskt och mentalt.
                                 </div>
                             </div>
                         </ScrollingComponent>
