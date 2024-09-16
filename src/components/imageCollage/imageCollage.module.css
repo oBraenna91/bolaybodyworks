@@ -22,6 +22,10 @@
 
 .sub1 {
   width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#ff7e5f), to(#feb47b));
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  -webkit-animation: gradientShift 5s infinite alternate;
+          animation: gradientShift 5s infinite alternate;
 }
 
 .sub2 {
@@ -43,5 +47,23 @@
 .sub1, .sub2, .sub3, .sub4, .sub5, .sub6 {
   height: 80px;
   background-color: black;
+}
+
+@-webkit-keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
 /*# sourceMappingURL=imageCollage.module.css.map */

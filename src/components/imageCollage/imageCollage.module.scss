@@ -13,6 +13,8 @@
 
 .sub1 {
     width: 100%;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    animation: gradientShift 5s infinite alternate;
 }
 
 .sub2 {
@@ -35,3 +37,12 @@
     height: 80px;
     background-color: black;
 }
+
+@keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
