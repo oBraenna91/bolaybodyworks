@@ -6,6 +6,7 @@ export default function ImageCollage() {
 
     return(
         <div className={styles.container1}>
+            <div className={styles.fixed}>img</div>
             <div className={`${styles.sub1} corner`}>
 
             </div>
